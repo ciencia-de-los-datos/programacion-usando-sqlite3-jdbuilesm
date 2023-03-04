@@ -17,12 +17,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-#
-# Apertura de la conexión
-#
+
 import sqlite3
 
-conn = sqlite3.connect(":memory:")  ## aca se indica el nombre de la db.
+conn = sqlite3.connect(":memory:") 
 cur = conn.cursor()
 
 import pandas as pd

@@ -43,23 +43,11 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-tbl5 = pd.merge(
-    tbl1,
-    tbl2,
-    on="K1",
-)
-tbl5.to_sql(
-    name="tbl5",
-    con=conn,
-    if_exists="replace",  # {‘fail’, ‘replace’, ‘append’}
-)
-
 SELECT
     K0,
-    round(avg(c21) , 6) AS "avg(c21)"
+    avg(c21) AS "avg(c21)"
 
-FROM
-    tbl5
+FROM tbl1 JOIN tbl2 USING(K1)
 
 WHERE
     c13 > 400

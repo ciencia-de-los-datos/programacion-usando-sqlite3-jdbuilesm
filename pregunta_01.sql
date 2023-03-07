@@ -16,5 +16,5 @@
 --  0  15137.63
 --
 --  >>> Escriba su codigo a partir de este punto <<<
---
-query = cur.execute('SELECT sum(c12) FROM tbl1')
+--  query = cur.execute('SELECT sum(c12) FROM tbl1')
+

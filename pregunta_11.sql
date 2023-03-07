@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT COUNT(*) FROM tbl1 WHERE c14(date) = 2018
+SELECT COUNT(*) FROM tbl1 WHERE c14 = 2018

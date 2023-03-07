@@ -15,5 +15,5 @@
 --     SUM(c12)
 --  0  15137.63
 --
---  >>> query = cur.execute('SELECT sum(c12) FROM tbl1') <<<
+--  >>> cur.execute('SELECT sum(c12) FROM tbl1') <<<
 --

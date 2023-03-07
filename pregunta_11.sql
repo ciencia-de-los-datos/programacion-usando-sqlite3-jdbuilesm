@@ -39,7 +39,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    COUNT(*) AS "CANT"
+    COUNT(*)
 
 FROM
     tbl1

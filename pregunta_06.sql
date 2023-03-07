@@ -43,3 +43,19 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT
+    K0,
+    K1,
+    c12,
+    c13,
+    c14,
+    c15,
+    c16
+FROM
+    tbl1
+
+WHERE
+    K0 == "A"
+
+ORDER BY
+    c14;

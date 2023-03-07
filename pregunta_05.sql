@@ -41,3 +41,14 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT
+    K0,
+    c01,
+    c02,
+    c03,
+    c04
+FROM
+    tbl0
+
+WHERE
+    c02 == 100 OR c02 == 600;

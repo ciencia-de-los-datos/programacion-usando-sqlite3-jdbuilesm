@@ -42,7 +42,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT
-    strftime('%Y', c23) AS "YEAR",
+    strftime('%Y', c23) AS "strftime('%Y', c23)",
     avg(c21) AS "avg(c21)"
     
 

@@ -45,7 +45,7 @@
 SELECT
     K0,
     max(c12) AS "MAX(c12)",
-    min(c12) AS "min(c12)"
+    min(c12) AS "MIN(c12)"
 FROM
     tbl1
 GROUP BY

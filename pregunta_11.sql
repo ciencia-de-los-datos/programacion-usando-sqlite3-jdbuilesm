@@ -40,7 +40,7 @@
 -- 
 SELECT
     strftime('%Y', c14) AS "YEAR",
-    count(*) as "CANT"
+    COUNT(*) AS "CANT"
 
 
 FROM

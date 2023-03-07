@@ -38,4 +38,12 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT COUNT(*) FROM tbl1 WHERE c14 = 2018
+SELECT
+    strftime('%Y', c14) AS "YEAR",
+    COUNT(*) AS "CANT"
+
+FROM
+    tbl1
+
+WHERE
+    YEAR == "2018";

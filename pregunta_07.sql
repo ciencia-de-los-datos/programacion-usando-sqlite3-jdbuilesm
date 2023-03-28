@@ -33,6 +33,22 @@
 --  registros con K0 diferente a A y B y c13 diferente 
 --  de 200 y 900
 --
+SELECT
+    K0,
+    K1,
+    c12,
+    c13,
+    c14,
+    c15,
+    c16
+FROM
+    tbl1
+
+WHERE
+    K0 != "A" AND K0 != "B" AND c13 != 200 AND c13 != 900
+
+ORDER BY
+    c14;
 --  Rta/
 --     K0  K1     c12  c13         c14   c15   c16
 --  0   E  14  832.44  800  2016-11-22  0.39  EGFD

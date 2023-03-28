@@ -50,3 +50,4 @@ FROM
 
 GROUP BY
     strftime('%Y', c23);
+
